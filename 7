@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Float Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .box {
+      width: 45%;
+      padding: 20px;
+      float: left;
+    }
+    .left {
+      background: #add8e6;
+      margin-right: 5%;
+    }
+    .right {
+      background: #f08080;
+    }
+    body::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="box left">
+    <h2>Left Box</h2>
+    <p>This box floats to the left side.</p>
+  </div>
+  <div class="box right">
+    <h2>Right Box</h2>
+    <p>This box floats to the right side.</p>
+  </div>
+</body>
+</html>
