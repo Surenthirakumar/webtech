@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input id="email" placeholder="Enter email">
+<button onclick="check()">Validate</button>
+<p id="msg"></p>
+<script>
+function check() {
+  let e = document.getElementById("email").value;
+  let v = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
+  document.getElementById("msg").innerText = v ? "Valid" : "Invalid";
+}
+</script>
+</body>
+</html>
