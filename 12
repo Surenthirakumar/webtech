@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {font-family: sans-serif; margin: 0;}
+    header, footer {background: #333; color: #fff; text-align: center; padding: 10px;}
+    main {padding: 20px;}
+    img {width: 100px; float: right; margin: 0 0 10px 10px;}
+    section {margin-bottom: 20px;}
+  </style>
+</head>
+<body>
+
+<header>My Web Page</header>
+
+<main>
+  <section>
+    <h2>About</h2>
+    <p>This is a short page.</p>
+    <img src="img.jpg" alt="Sample">
+  </section>
+  <section>
+    <h2>Contact</h2>
+    <p>Email: example@mail.com</p>
+  </section>
+</main>
+
+<footer>&copy; 2025</footer>
+
+</body>
+</html>
